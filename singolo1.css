@@ -1,27 +1,27 @@
 @font-face {
-  font-family: Lato;
-  src: url(assets/Lato-Regular.ttf);
+  font-family: "Lato";
+  src: url("assets/Lato-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
-  src: url(assets/Lato-Light.ttf);
+  font-family: "Lato";
+  src: url("assets/Lato-Light.ttf");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
-  src: url(assets/Lato-Bold.ttf);
+  font-family: "Lato";
+  src: url("assets/Lato-Bold.ttf");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Lato;
-  src: url(assets/Lato-Black.ttf);
+  font-family: "Lato";
+  src: url("assets/Lato-Black.ttf");
   font-weight: 900;
   font-style: normal;
 }
@@ -43,7 +43,7 @@ input[type="radio"].visually-hidden {
 body {
   margin: 0;
   padding: 0;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .wrapper {
@@ -75,7 +75,7 @@ body {
 }
 
 .logo__simbol {
-  margin-left: -5px;
+  margin-left: -2px;
   color: #F06C64;
 }
 
@@ -116,7 +116,7 @@ a.active {
   left: -12px;
   font-weight: 400;
   font-size: 19px;
-  font-family: Lato;
+  font-family: "Lato";
   color: #494e62;
 }
 
@@ -185,18 +185,19 @@ a.active {
   flex-wrap: wrap;
 }
 
-.services p {
+.services__description {
   margin-top: 18px;
   margin-bottom: 42px;
   font-size: 17px;
   font-weight: 300;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.75px;
   line-height: 1.8;
+  padding: 0 15px 0 0;
 }
 
 .service {
   width: 300px;
-  height: 109px;
+  height: 110px;
   margin-right: 19px;
   margin-bottom: 14px;
 }
@@ -204,11 +205,10 @@ a.active {
 .service__icon {
   float: left;
   margin: 5px 20px 40px 2px;
-
 }
 
 .service__header {
-  letter-spacing: -0.2px;
+  letter-spacing: -0.1px;
   font-size: 18px;
   font-weight: 900;
 }
