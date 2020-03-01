@@ -49,7 +49,7 @@ body {
 .about-us__header {
   font-size: 30px;
   font-weight: 900;
-  letter-spacing: 0.035px;
+  letter-spacing: 0.05px;
 }
 
 .portfolio__description,
@@ -64,12 +64,12 @@ body {
   font-size: 12px;
   font-family: Lato, sans-serif;
   font-weight: 400;
-  margin-right: 5px;
-  padding: 2.5px 6.0px;
+  margin-right: 7px;
+  padding: 2.5px 6.2px;
   color: inherit;
   border: 1px solid #666D89;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .portfolio__button:hover {
@@ -157,11 +157,10 @@ body {
 
 .staff__links {
   padding-top: 12px;
-
 }
 
 .links-icon {
-  margin-right: 4px;
+  margin-right: 5px;
 }
 
 .links-icon:hover {
