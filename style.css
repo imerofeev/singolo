@@ -164,7 +164,7 @@ a.active {
 
 .services {
   padding-left: 40px;
-  height: 495px;
+  height: 500px;
   color: #666d89;
   background-color: #F2F2F2;
 }
@@ -381,7 +381,7 @@ a.active {
   font-family: Lato, sans-serif;
   display: inline-block;
   width: 615px;
-  margin-right: 20px;
+  margin-right: 22px;
   margin-top: 30px;
 }
 
@@ -479,7 +479,7 @@ a.active {
   display: inline-block;
   width: 13px;
   height: 11px;
-  margin-right: 7px;
+  margin-right: 10px;
   text-align: center;
 }
 
@@ -487,7 +487,7 @@ a.active {
   display: flex;
   height: 76px;
   padding-left: 40px;
-  padding-right: 40px;
+  padding-right: 35px;
   background-color: #2D303A;
 }
 
@@ -508,10 +508,11 @@ a.active {
 }
 
 .social_icons a {
-  margin-right: 4px;
+  margin-right: 0;
 }
+
 .social_icons a:last-child{
-  margin-right:0;
+  margin-right: 0;
 }
 
 .links-icon:hover {
